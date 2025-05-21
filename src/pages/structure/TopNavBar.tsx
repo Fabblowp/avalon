@@ -1,34 +1,23 @@
-import { useEffect, useState } from "react";
-import IconSun from "../../components/icons/IconSun"
+import IconLogoAvalon from "../../components/icons/IconLogoAvalon"
+
 function TopNavBar(){
-    const [darkMode, setDarkMode] = useState(false);
-    
-    useEffect(() => {
-        if (darkMode) {
-            document.documentElement.classList.add('dark');
-        } else {
-            document.documentElement.classList.remove('dark');
-        }
-    }, [darkMode]);
-
-    const toggleDarkMode = () => {
-        setDarkMode(!darkMode);
-    };
-
     return(
         <>
-            <nav className="fixed top-0 w-full p-4 shadow-md dark:bg-gray-700 bg-white">
-                <div className="max-w-7xl mx-auto flex justify-between">
-                    <h1 className="text-xl font-bold">Avalon</h1>
-                    <ul className="flex gap-6">
-                        <li><a href="#" className="hover:text-gray-200">Inicio</a></li>
-                        <li><a href="#" className="hover:text-gray-200">Tasks</a></li>
-                        <li><a href="#" className="hover:text-gray-200">Docs</a></li>
+            <nav className="bg-gray-800 py-2 px-0 flex items-center justify-between shadow-md z-10">
+                <div className="flex items-center">
+                    <IconLogoAvalon height="42" color="#c97016" className="mx-2"/>
+                    <span className="text-sm">AVALON</span>
+                    <ul>
+                        <li className="inline-block px-4 py-2 text-sm cursor-pointer hover:bg-gray-700 rounded-md">Projects</li>
+                        <li className="inline-block px-4 py-2 text-sm cursor-pointer hover:bg-gray-700 rounded-md">Wiki</li>
+                        <li className="inline-block px-4 py-2 text-sm cursor-pointer hover:bg-gray-700 rounded-md">About</li>
+                        <li className="inline-block px-4 py-2 text-sm cursor-pointer hover:bg-gray-700 rounded-md">Search</li>
                     </ul>
-                    <ul className="flex gap-6">
-                        <li><a href="#" className="hover:text-gray-200">Usuario</a></li>
-                        <li><a href="#" className="hover:text-gray-200" onClick={toggleDarkMode}><IconSun /></a></li>
-                        
+                </div>
+                <div className="flex items-center">
+                    <ul>
+                        <li className="inline-block px-4 py-2 text-sm cursor-pointer hover:bg-gray-700 rounded-md">User</li>
+                        <li className="inline-block px-4 py-2 text-sm cursor-pointer hover:bg-gray-700 rounded-md">Mode</li>
                     </ul>
                 </div>
             </nav>

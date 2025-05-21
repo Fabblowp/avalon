@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="18.918612mm"
+   height="18.760754mm"
+   viewBox="0 0 18.918611 18.760754"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="LogoAvalonPlain.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="11.592643"
+     inkscape:cx="35.712304"
+     inkscape:cy="35.410388"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-0.51156098,-0.60196148)">
+    <path
+       id="path2"
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="m 4.2506089,12.073539 c 2.3010192,0.479673 4.4187983,1.40462 6.0593781,3.210566 0.929541,-1.508149 3.30661,-2.484559 5.516748,-3.527101 M 6.2466685,18.562715 C 5.7328553,17.697753 3.518516,17.742392 1.3113581,18.449451 6.4749806,13.178178 8.1054963,7.3266142 10.400426,1.4017964 12.211122,7.367516 13.894604,14.005865 18.630329,18.404232 16.956794,18.189646 14.680136,16.745078 13.74665,18.449452"
+       sodipodi:nodetypes="cccccccc" />
+  </g>
+</svg>

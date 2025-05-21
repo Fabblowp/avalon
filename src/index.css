@@ -1,1 +1,44 @@
 @import "tailwindcss";
+
+/* src/treeview/TreeView.css */
+.treeview {
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.tree-node-container {
+  margin-bottom: 4px; /* Espacio entre nodos */
+}
+
+.tree-node-content {
+  display: flex;
+  align-items: center;
+  cursor: default; /* Cambia a 'pointer' si todo el nodo es clickeable */
+  padding: 2px 0;
+}
+
+.tree-node-toggle {
+  cursor: pointer;
+  margin-right: 8px;
+  display: inline-block;
+  width: 1em; /* Para alinear mejor los nombres */
+  user-select: none; /* Evita seleccionar el texto del toggle */
+}
+
+.tree-node-placeholder-icon {
+  display: inline-block;
+  width: 1em; /* Mismo ancho que el toggle para alinear */
+  margin-right: 8px;
+}
+
+.tree-node-name {
+  cursor: pointer; /* Si quieres que el nombre sea clickeable */
+}
+
+.tree-node-name:hover {
+  text-decoration: underline;
+}
+
+.tree-node-children {
+  /* No se necesita padding-left aquí, ya que TreeNode lo maneja internamente */
+}
